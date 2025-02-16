@@ -1,15 +1,35 @@
 # ⏰Splunk SIEM Monitoring Solution Project
 
-## 📑Overview
+## 🎯Overview
 Developed and designed a custom monitoring environment as part of the cyber security incident response in order to protect a fictional organization from potential cyberattacks using Splunk SIEM (Security Information and Event Management).
+
+## 📺Scenario
+Played the role of a SOC analyst at a company called Virtual Space Industries (VSI). VSI has received information that another company, JobeCorp, may launch cyberattacks to disrupt VSI’s business. We were tasked with using Splunk to develop a monitoring environment to monitor a Windows OS, which runs many of VSI's back-end operations and an Apacher web sever, which hosts the administrative webpag. This environment can protect against potential attacks on VSI’s systems and applications
+
+
+## Logs Analyzed 
+1. Normal Activity Logs: These are past logs to help you develop baselines and create a monitoring solution such as reports, alerts and dashboards.
+2. Attack Activity Logs: These are 
+3.
+4.    Windows Logs: This server contains intellectual property of VSI’s next-generation virtual-reality programs running on the back end.
+     - Normal Activity Log: These are past logs to help you develop baselines and create a monitoring solution such as reports, alerts, dashboards, and more.
+     - Attack Activity Log: 
+5. Apache Logs: This server hosts VSI’s main public-facing website, vsi-company.com.
+   - Normal Activity Log
+   - Attack Activity Log
+
+
+
 
 
 ## 🔑Key Achievements
-I) Examined Windows Events and Apache Server logs to gain insights into server activities and established a baseline for normal behavior. This baseline helps detect anomalies by analyzing key parameters such as severity levels, failed and successful events, event volume, signatures, and user activity.
+1. Examined Windows and Apache Servers Logs to gain insights into server activities and establish a baseline for normal behavior. This baseline helps detect anomalies by analyzing key parameters such as severity levels, failed and successful events, event volume, signatures, and user activity.
 
-II) Designed and implemented custom alerts and reports based on the established baseline. These alerts automatically notify the designated security personnel via email whenever activity surpasses the defined threshold, enabling real-time detection and response to potential threats.
+2. Designed and implemented custom alerts, reports and dashboards based on the established baseline. These alerts automatically notify the designated security personnel via email whenever activity surpasses the defined threshold, enabling real-time detection and response to potential threats.
 
-III) Strengthened monitoring capabilities by integrating a user-friendly dashboard within the Splunk app. This enhanced visibility into security events, providing a more comprehensive view of data to improve threat detection and defense against cyberattacks.
+3. Examined Windows and Apache Server Attack Logs 
+
+4. Strengthened monitoring capabilities by integrating a user-friendly dashboard within the Splunk app. This enhanced visibility into security events, providing a more comprehensive view of data to improve threat detection and defense against cyberattacks.
 
 ## Technologies Used
 

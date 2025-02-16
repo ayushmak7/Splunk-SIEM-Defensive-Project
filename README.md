@@ -8,11 +8,11 @@ Played the role of a SOC analyst at a company called Virtual Space Industries (V
 
 
 ## 🔑Key Achievements
-1. Examined Windows and Apache Servers Logs to gain insights into server activities and establish a baseline for normal behavior. This baseline helps detect anomalies by analyzing key parameters such as severity levels, failed and successful events, event volume, signatures, and user activity.
+1. Analyzed Windows and Apache Servers Logs to gain insights into server activities and establish a baseline for normal behavior. This baseline helps detect anomalies by analyzing key parameters such as severity levels, failed and successful events, event volume, signatures, and user activity.
 
-2. Designed and implemented custom alerts, reports and dashboards based on the established baseline. These alerts automatically notify the designated security personnel via email whenever activity surpasses the defined threshold, enabling real-time detection and response to potential threats.
+2. Designed and implemented a custom monitoring solution such as alerts, reports and dashboards based on the established baseline. These alerts automatically notify the designated security personnel via email whenever activity surpasses the defined threshold, enabling real-time detection and response to potential threats.
 
-3. Examined Windows and Apache Server Attack Logs 
+3. Analyzed Windows and Apache Servers Attack Logs with our monitoring solution to determine the efficacy of our solution. These new “attack logs” cover the time period during which the attack occurred. 
 
 4. Strengthened monitoring capabilities by integrating a user-friendly dashboard within the Splunk app. This enhanced visibility into security events, providing a more comprehensive view of data to improve threat detection and defense against cyberattacks.
 

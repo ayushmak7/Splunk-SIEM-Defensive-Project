@@ -4,14 +4,14 @@
 Developed and designed a custom monitoring environment as part of the cyber security incident response in order to protect a fictional organization from potential cyberattacks using Splunk SIEM (Security Information and Event Management).
 
 
-## Achievements
-I) Analyzed activity logs (Windows Server logs) to understand what activities are happening within the server as well as selecting a baseline for the organization to detect anything suspicious for any subset of data analyzed ie: severity, failed/successful activities, volume, signature, user, etc...
+## 🔑Key Achievements
+I) Examined Windows Events and Apache Server logs to gain insights into server activities and established a baseline for normal behavior. This baseline helps detect anomalies by analyzing key parameters such as severity levels, failed and successful events, event volume, signatures, and user activity.
 
-II) Developed and executed custom alerts/reports accordingly to the baseline that was set and those information will directly be reported to the person in charge of the security by email as soon as the baseline exceed the threshold selected. This is very helpful to detect and counter anomalies in real time.
+II) Designed and implemented custom alerts and reports based on the established baseline. These alerts automatically notify the designated security personnel via email whenever activity surpasses the defined threshold, enabling real-time detection and response to potential threats.
 
-III) Enhanced the monitoring capabilities by integrating a dashboard within the Splunk app, chosen specifically to make a more friendly-user environment and have a bigger vision of data to fortify defense against a certain type of cyber attack.
+III) Strengthened monitoring capabilities by integrating a user-friendly dashboard within the Splunk app. This enhanced visibility into security events, providing a more comprehensive view of data to improve threat detection and defense against cyberattacks.
 
-Technologies Used
+## Technologies Used
 
 
 

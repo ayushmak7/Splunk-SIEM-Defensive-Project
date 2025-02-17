@@ -40,6 +40,7 @@ Did you detect any suspicious changes in severity?
 After the attack, the informational category had a 13% decrease (went from  93% to 80%) and the high category had a 13% increase (went from 7% to 20%). Yes, there were suspicious changes in severity level since the high category increased. 
 
 Normal log:
+![alt log](https://github.com/ayushmak7/Splunk-SIEM-Defensive-Project/blob/main/images/windows%20log%201.png?raw=true)
 
 
 Attack log:
@@ -53,21 +54,25 @@ Did you detect any suspicious changes in failed activities?
 
 Yes, we did see a slight change in failed activities. The number of successful activities increased by 1% and the number of failed activities decreased by 1%. 
 
-[Normal logs:](https://i.imgur.com/50bR2rD.png/) 
+Normal log: 
+![alt log](https://github.com/ayushmak7/Splunk-SIEM-Defensive-Project/blob/main/images/windows%20log%202.png?raw=true)
 
-Attack logs:
+Attack log:
+![alt log](https://github.com/ayushmak7/Splunk-SIEM-Defensive-Project/blob/main/images/windows%20attack%20log%202.png?raw=true)
 
 
-
-Alert Analysis for Failed Windows Activity
+**Alert Analysis for Failed Windows Activity**
 
 Did you detect a suspicious volume of failed activity?
 
 Yes, there was a suspicious volume of failed activity after the attack at 8 AM on Wednesday, March 25th, 2020. 
+
 Normal logs: 
+![alt log](https://github.com/ayushmak7/Splunk-SIEM-Defensive-Project/blob/main/images/windows%20log%203.png?raw=true)
 
 
 Attack logs: 
+![alt log](https://github.com/ayushmak7/Splunk-SIEM-Defensive-Project/blob/main/images/windows%20attack%20log%203.png?raw=true)
 
 
  If so, what was the count of events in the hour(s) it occurred?

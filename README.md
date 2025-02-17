@@ -98,12 +98,14 @@ Yes, the threshold was set to >15 so the alert would have been triggered since i
 No, I wouldn’t change the threshold because reviewing the normal logs activity we concluded that it was low enough to trigger the alert yet high enough to prevent any false positives. 
 
    
-Alert Analysis for Successful Logins
+**Alert Analysis for Successful Logins**
 
  Did you detect a suspicious volume of successful logins?
 
 Yes, there is a suspicious volume of successful logins on the attack logs compared to the normal logs but the amount of logins reduced drastically after the attack. 
+
 Normal logs:
+![alt log](
 
 
 Attack logs: 

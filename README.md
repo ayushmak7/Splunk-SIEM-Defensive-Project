@@ -39,15 +39,11 @@ Did you detect any suspicious changes in severity?
 
 After the attack, the informational category had a 13% decrease (went from  93% to 80%) and the high category had a 13% increase (went from 7% to 20%). Yes, there were suspicious changes in severity level since the high category increased. 
 
-<p align="left">
-Normal log: <br>
-<img src="https://i.imgur.com/50bR2rD.png" height="80%" width="80%" alt="windows normal log"/>
-<br>
 
-<p align="left">
-Attack log:<br>
-<img src="https://i.imgur.com/CcnOIGY.png" height="80%" width="80%" alt="windows attack log"/>
-<br>
+
+This is an example of an image:
+![alt windows log](windows log 1.png)
+
 
 
 

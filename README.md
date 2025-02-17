@@ -165,7 +165,11 @@ Does anything stand out as suspicious?
 
    - Yes, there are two main signatures that stand out on the attack logs compared to the normal activity logs.
 
+Normal log: 
+![alt log](https://github.com/ayushmak7/Splunk-SIEM-Defensive-Project/blob/main/images/windows%20log%207.png?raw=true)
 
+Attack log:
+![alt log](https://github.com/ayushmak7/Splunk-SIEM-Defensive-Project/blob/main/images/windows%20attack%20log%207.png?raw=true)
 
 
 
@@ -178,7 +182,6 @@ An attempt was made to reset an account password
 
    - A user account was locked out began at 1AM and stopped at 2AM. An attempt was made to reset an account password began at 9AM and stopped at 10AM.
 
-
 What is the peak count of the different signatures?
 
    - A user account was locked out: peak count = 896
@@ -189,11 +192,14 @@ An attempt was made to reset an account password: peak count = 1,268
 
 Does anything stand out as suspicious?
 
-   - Yes, there are two users with increased activity on the attack log that stand out. 
+   - Yes, there are two users with increased activity on the attack log that stand out.
+     
 Normal logs:
+![alt log](https://github.com/ayushmak7/Splunk-SIEM-Defensive-Project/blob/main/images/windows%20log%208.png?raw=true)
+
 
 Attack Logs:
-
+![alt log](https://github.com/ayushmak7/Splunk-SIEM-Defensive-Project/blob/main/images/windows%20attack%20log%208.png?raw=true)
 
 
 Which users stand out?
@@ -205,8 +211,6 @@ What time did it begin and stop for each user?
 
    - Increased user activity of user_a began at 1AM and stopped at 2AM. 
 Increased user activity of user_k began at 9AM and stopped at 10AM. 
-
-
 
 
 What is the peak count of the different users?
@@ -222,11 +226,11 @@ Does anything stand out as suspicious?
    - Yes, comparing the normal activity logs to the attack logs, we can see that there are two signatures with increased activity that stand out as suspicious.
 
 Normal Logs:
-
+![alt log](https://github.com/ayushmak7/Splunk-SIEM-Defensive-Project/blob/main/images/windows%20log%209.png?raw=true)
 
 
 Attack Logs: 
-
+![alt log](https://github.com/ayushmak7/Splunk-SIEM-Defensive-Project/blob/main/images/windows%20attack%20log%209.png?raw=true)
 
 
 Do the results match your findings in your time chart for signatures?    
@@ -242,8 +246,12 @@ Does anything stand out as suspicious?
    - Yes, user_a and user_k stand out as suspicious because their activity has increased significantly. 
 
 
-Attack logs:
+Normal log: 
+![alt log](https://github.com/ayushmak7/Splunk-SIEM-Defensive-Project/blob/main/images/windows%20log%2010.png?raw=true)
 
+
+Attack logs:
+![alt log](https://github.com/ayushmak7/Splunk-SIEM-Defensive-Project/blob/main/images/windows%20attack%20log%2010.png?raw=true)
 
 
 Do the results match your findings in your time chart for users?

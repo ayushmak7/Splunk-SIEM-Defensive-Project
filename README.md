@@ -10,11 +10,11 @@ Developed and designed a custom monitoring environment as part of the cyber secu
 
 
 ## 🔑Key Achievements
-1. Loaded and analyzed activity logs (Windows Server Logs) to gain insights into server activities and establish a baseline for normal behavior. This baseline helps detect anomalies by analyzing key parameters such as severity levels, failed and successful events, event volume, signatures, and user activity.
+1. Loaded and analyzed activity logs (Windows Server Activity Logs) to gain insights into server activities and establish a baseline for normal behavior. This baseline helps detect anomalies by analyzing key parameters such as severity levels, failed and successful events, event volume, signatures, and user activity.
 
 2. Designed and implemented a custom monitoring solution such as alerts, reports and dashboards based on the established baseline. These alerts automatically notify the designated security personnel via email whenever activity surpasses the defined threshold, enabling real-time detection and response to potential threats.
 
-3. Loaded new activity logs (Window Server Attack Logs) that cover the time period during which the attack occurred. Analyzed these new attack logs with our monitoring solution to determine the efficacy of our solution. 
+3. Loaded new activity logs (Window Server Attack Acitivity Logs) that cover the time period during which the attack occurred. Analyzed these new attack logs with our monitoring solution to determine the efficacy of our solution. 
 
 4. Strengthened monitoring capabilities by integrating a user-friendly dashboard within the Splunk app. This enhanced visibility into security events, providing a more comprehensive view of data to improve threat detection and defense against cyberattacks.
 

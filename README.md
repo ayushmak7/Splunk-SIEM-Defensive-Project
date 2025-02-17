@@ -17,10 +17,13 @@ Developed and designed a custom monitoring environment as part of the cyber secu
 
 4. Strengthened monitoring capabilities by integrating a user-friendly dashboard within the Splunk app. This enhanced visibility into security events, providing a more comprehensive view of data to improve threat detection and defense against cyberattacks.
 
-## Technologies Used
+## 🖥️Technologies Used
 Splunk SIEM
 
-## Logs Analyzed 
+## ⌨️Languages Used 
+SPL (Splunk Search Processing Language)
+
+## 📜Logs Analyzed 
 
 1. Windows Logs
    - Normal Activity Log
@@ -29,7 +32,7 @@ Splunk SIEM
    - Normal Activity Log
    - Attack Activity Log
 
-## Screenshots 
+## 📸Screenshots 
 
 **Windows Server Log** 
 

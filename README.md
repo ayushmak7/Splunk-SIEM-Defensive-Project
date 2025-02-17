@@ -40,10 +40,8 @@ Did you detect any suspicious changes in severity?
 After the attack, the informational category had a 13% decrease (went from  93% to 80%) and the high category had a 13% increase (went from 7% to 20%). Yes, there were suspicious changes in severity level since the high category increased. 
 
 
-
-This is an example of an image:
-![alt windows log](windows log 1.png)
-
+Normal log:
+![alt log](https://github.com/ayushmak7/Splunk-SIEM-Defensive-Project/blob/main/images/windows%20attack%20log%201.png?raw=true)
 
 
 

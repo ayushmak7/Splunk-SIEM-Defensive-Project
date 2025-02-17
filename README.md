@@ -105,10 +105,11 @@ No, I wouldn’t change the threshold because reviewing the normal logs activity
 Yes, there is a suspicious volume of successful logins on the attack logs compared to the normal logs but the amount of logins reduced drastically after the attack. 
 
 Normal logs:
-![alt log](
+![alt log](https://github.com/ayushmak7/Splunk-SIEM-Defensive-Project/blob/main/images/windows%20log%204.png?raw=true)
 
 
 Attack logs: 
+![alt log](https://github.com/ayushmak7/Splunk-SIEM-Defensive-Project/blob/main/images/windows%20attack%20log%204.png?raw=true)
 
 
  If so, what was the count of events in the hour(s) it occurred?
@@ -121,10 +122,11 @@ From the attack logs, we noticed that at 8AM there were 16 successful logins the
 The primary user logging in was user_a, they had a huge number of logins compared to other users at 2:30 AM with the login count of 10.
 
 Normal logs:
+![alt _log](https://github.com/ayushmak7/Splunk-SIEM-Defensive-Project/blob/main/images/windows%20log%205.png?raw=true)
 
 
 Attack logs: 
-
+![alt log](https://github.com/ayushmak7/Splunk-SIEM-Defensive-Project/blob/main/images/windows%20attack%20log%205.png?raw=true)
 
 
 
@@ -144,7 +146,7 @@ No, our alert wouldn’t have been triggered because we set our threshold to >26
 After reviewing, I think we would need more log files and historical data to be examined in order to determine the threshold. Since there was a lack of logins after the attack in this scenario which indicates suspicious activity, we could have an alert if the amount of logins decreases significantly to a certain number per hour. 
 
 
-Alert Analysis for Deleted Accounts
+**Alert Analysis for Deleted Accounts**
 
 Did you detect a suspicious volume of deleted accounts?  
    
@@ -183,7 +185,7 @@ A user account was locked out: peak count = 896
 An attempt was made to reset an account password: peak count = 1,268
 
 
-Dashboard Analysis for Users  
+**Dashboard Analysis for Users**  
 
    Does anything stand out as suspicious?
 

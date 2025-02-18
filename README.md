@@ -6,7 +6,7 @@ Played the role of a SOC analyst at a company called VSI. VSI has received infor
 
 
 ## 🎯Task
-To develop and design a custom monitoring solution to analyze security events and create real-time alerts as part of the cyber security incident response in order to protect a fictional organization from potential cyberattacks using Splunk SIEM (Security Information and Event Management).
+To develop and design a custom monitoring solution using Splunk to analyze security events and create real-time alerts as part of the cyber security incident response in order to protect a fictional organization from potential cyberattacks using Splunk SIEM (Security Information and Event Management).
 
 
 ## 🔑Key Achievements
